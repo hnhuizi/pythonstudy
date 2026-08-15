@@ -1,0 +1,14 @@
+a = float(input("输入第一个数字："))
+fuhao = input("输入运算符(+ - * /)：")
+b = float(input("输入第二个数字："))
+
+if fuhao == "+":
+    print(a + b)
+elif fuhao == "-":
+    print(a - b)
+elif fuhao == "*":
+    print(a * b)
+elif fuhao == "/":
+    print(a / b)
+else:
+    print("运算符错误")
