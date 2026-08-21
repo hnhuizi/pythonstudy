@@ -1,3 +1,2 @@
-#!/usr/bin/env python3
-
-print('hello, world')
+for i in range(0,50):
+  print('hello, huizi',i)
